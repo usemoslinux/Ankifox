@@ -1,0 +1,18 @@
+<!ENTITY options.dicnum1 "Woordenboek 1">
+<!ENTITY options.dicnum2 "Woordenboek 2">
+<!ENTITY options.dicnum3 "Woordenboek 3">
+<!ENTITY options.dicnum4 "Woordenboek 4">
+<!ENTITY options.dicname1 "Woordenboek 1">
+<!ENTITY options.dicname2 "Woordenboek 2">
+<!ENTITY options.dicname3 "Woordenboek 3">
+<!ENTITY options.dicname4 "Woordenboek 4">
+<!ENTITY options.tooltipdic "Denk er aan het gezochte woord te vervangen door &quot;&#37;s&quot;">
+<!ENTITY options.tooltipdicname "Een aangepaste naam voor dit woordenboek">
+<!ENTITY options.usedic "Te gebruiken woordenboek">
+<!ENTITY options.diccustom "Aangepaste woordenboeken">
+<!ENTITY options.dicurl "URL:">
+<!ENTITY options.deck "Selecteer opmerkingstype en opmaak">
+<!ENTITY options.notetype "Opmerkingstype">
+<!ENTITY options.tooltipnotetype "Dit dient exact gelijk te zijn aan dat op Ankiweb (kapitalisatie, accenten, enz.)">
+<!ENTITY options.seldeck "Opmaak">
+<!ENTITY options.tooltipdeck "Deze dient exact gelijk te zijn aan die op Ankiweb (kapitalisatie, accenten, enz.)">

@@ -1,0 +1,18 @@
+<!ENTITY options.dicnum1 "Словник 1">
+<!ENTITY options.dicnum2 "Словник 2">
+<!ENTITY options.dicnum3 "Словник 3">
+<!ENTITY options.dicnum4 "Словник 4">
+<!ENTITY options.dicname1 "Словник 1">
+<!ENTITY options.dicname2 "Словник 2">
+<!ENTITY options.dicname3 "Словник 3">
+<!ENTITY options.dicname4 "Словник 4">
+<!ENTITY options.tooltipdic "Пам'ятати зміну слова, що шукалось на '&#37;s'">
+<!ENTITY options.tooltipdicname "Персональна назва для цього словника">
+<!ENTITY options.usedic "Використовувати словник">
+<!ENTITY options.diccustom "Власні словники">
+<!ENTITY options.dicurl "URL словника користувача">
+<!ENTITY options.deck "Оберіть тип примітки і список">
+<!ENTITY options.notetype "Тип примітки">
+<!ENTITY options.tooltipnotetype "0 = 1-й пункт у списку, 1 = 2-й пункт у списку і т.д.">
+<!ENTITY options.seldeck "Список">
+<!ENTITY options.tooltipdeck "Повинно бути точнісінько таким же, як і в Ankiweb (великі літери і т.д.)">

@@ -1,0 +1,14 @@
+
+overlay	chrome://browser/content/browser.xul	chrome://ankifox/content/ankifox.xul
+overlay	chrome://navigator/content/navigator.xul	chrome://ankifox/content/ankifox.xul
+
+content	ankifox	content/ankifox/
+
+skin	ankifox	classic/1.0	skin/classic/ankifox/
+
+locale	ankifox	en-US	locale/en-US/
+locale	ankifox	es	locale/es/
+locale	ankifox	fr	locale/fr/
+locale	ankifox	nl	locale/nl/
+locale	ankifox	ru	locale/ru/
+locale	ankifox	zh-CN	locale/zh-CN/

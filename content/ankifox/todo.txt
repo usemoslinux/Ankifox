@@ -1,0 +1,82 @@
+/*
+
+  what's new:
+
+  1.9
+
+  - notetype now is specified by giving its name, not its order value (0 for the first element, 1 for the second, and so on). I find this is much more intuitive for new users.
+  - now users can use up to 4 dictionaries, instead of 3
+  - dictionaries can now be give custom names, thus making it easier to select them in quick search mode
+
+*/
+
+/*
+  what's new:
+
+  1.8
+
+  Reviewer:
+  Kris Maglione
+
+  Comments:
+  This version didn't pass full review because of the following issues:
+
+  OK 1) You need to remove your load event listener from the tab that you create after the first time it is called. You'll also need to check that the loaded document has the correct URL, so that you do not unintentionally send the selection text to a content page.
+
+  OK 2) You need to URL encode your GET query parameters with the `encodeURIComponent` function so that characters like %, &, and # are not misinterpreted.
+
+  OK 3) Please use the builtin string `trim` method rather than creating your own.
+
+  4) Please provide us with detailed information on how to test your add-on. If authentication to a website is necessary, give us a test username and password to facilitate our work. This information can be added to the Notes to Reviewers field of the version you are submitting (and future versions preferably), and in a reply to this review email.
+
+  OK 5) You should be using the #contentAreaContextMenu's 'popupshowing' event, rather than the 'contextmenu' event, to show or hide your context menu item.
+
+  You need to correct them to get full approval. Thanks.Mine.
+
+  Tested on Linux with Firefox 29.0
+*/
+
+
+/*
+  what's new:
+
+  1.6
+  - locales for es, fr, nl, ru, zh-CN
+  - shortcut to open dictionary + ankiweb
+  - use one of the other dictionaries without changing the default one
+
+*/
+
+
+
+/*
+  todo:
+
+  works well with:
+  https://dictionary.cambridge.org/dictionary/american-english/%s
+  http://www.wordreference.com/es/translation.asp?tranword=%s
+  http://en.bab.la/dictionary/english-japanese/%s
+  http://mobile-dictionary.reverso.net/espanol-frances/casa
+  http://m.dictionary.com/definition/house?linkid=ibc5yn&srcpage=home&site=dictwap
+
+
+  works fine, but...:
+  http://www.thefreedictionary.com/house // screen size
+  http://dictionary.reference.com/browse/tablet // screen size
+  http://www.merriam-webster.com/dictionary/%s // screen size
+
+  does not work:
+
+
+  summary:
+
+  The best approach to learning a new language is using it everyday, we all know that. That's how we learned our mother tongue in the first place. So, one entertaining way of doing this is learning while reading, taking advantage of the fact that we spend a huge amount of time surfing the web.
+
+  Although there are some Firefox addons that allow language immersion they are confusing and limiting. Instead of poorly translating single words or loose phrases from texts in your native language, it's far better to read texts in the language you're trying to learn and just searching for difficult words and storing them for later review using spaced repetition algorithms.
+
+  With Ankifox, adding words to Anki is like a breeze. Right-click and choose "Add to anki". A new tab will open with both Ankiweb and your dictionary of choice. Using dictionaries formated for mobile viewing is highly recommended.
+
+  Anki + Firefox = Ankifox, a dream come true.
+
+  Remember: you need to be subscribed to ankiweb to start storing your word lists and reviewing them using spaced repetition magic. You can do that here: https://ankiweb.net/
+*/

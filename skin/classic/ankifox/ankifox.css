@@ -1,0 +1,11 @@
+/*  skin context menu item  */
+
+#addtoanki{
+	list-style-image: url("chrome://ankifox/skin/anki-logo-icon.png");
+}
+
+/*  skin statusbar button  */
+
+#ankifox-button {
+  list-style-image: url("chrome://ankifox/skin/anki-logo-icon.png");
+}

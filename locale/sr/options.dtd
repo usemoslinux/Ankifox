@@ -1,0 +1,18 @@
+<!ENTITY options.dicnum1 "Речник 1">
+<!ENTITY options.dicnum2 "Речник 2">
+<!ENTITY options.dicnum3 "Речник 3">
+<!ENTITY options.dicnum4 "Речник 4">
+<!ENTITY options.dicname1 "Речник 1">
+<!ENTITY options.dicname2 "Речник 2">
+<!ENTITY options.dicname3 "Речник 3">
+<!ENTITY options.dicname4 "Речник 4">
+<!ENTITY options.tooltipdic "Упамти да замениш тражене речи са '&#37;s'">
+<!ENTITY options.tooltipdicname "Прилагођени назив овог речника">
+<!ENTITY options.usedic "Речник који треба да се користи">
+<!ENTITY options.diccustom "Прилагођени речници">
+<!ENTITY options.dicurl "URL-ови прилагођеног речника">
+<!ENTITY options.deck "Врста белешке и погледа">
+<!ENTITY options.notetype "Врста белешке">
+<!ENTITY options.tooltipnotetype "0 = прва ставка са списка, 1 = друга ставка итд.">
+<!ENTITY options.seldeck "Поглед">
+<!ENTITY options.tooltipdeck "Мора бити потпуно исти као онај сачуван у Анкивебу (велика/мала слова, акценти итд)">
