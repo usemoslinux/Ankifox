@@ -1,0 +1,81 @@
+{
+  "name": "ankifox",
+  "title": "Ankifox",
+  "id": "ankifox@ankiweb.com",
+  "version": "2.0.0",
+  "description": "Add new cards to Anki while you read online articles, pdf files, etc. in Firefox.",
+  "main": "index.js",
+  "author": "usemoslinux",
+  "engines": {
+    "firefox": ">=38.0a1",
+    "fennec": ">=38.0a1"
+  },
+  "license": "GPL-3.0",
+  "keywords": [
+    "jetpack"
+  ],
+  "preferences": [{
+      "name": "dicname1",
+      "title": "title",
+      "type": "string",
+      "value": "Dictionary.com"
+    },{
+      "name": "dic1",
+      "title": "Dictionary 1 - URL",
+      "type": "string",
+      "value": "http://m.dictionary.com/definition/%s?linkid=ibc5yn&srcpage=home&site=dictwap"
+    },
+    {
+      "name": "dicname2",
+      "title": "Dictionary 2 - Name",
+      "type": "string",
+      "value": "Wordreference"
+    },{
+      "name": "dic2",
+      "title": "Dictionary 2 - URL",
+      "type": "string",
+      "value": "http://www.wordreference.com/es/translation.asp?tranword=%s"
+    },
+    {
+      "name": "dicname3",
+      "title": "Dictionary 3 - Name",
+      "type": "string",
+      "value": "Oxford Learner's"
+    },
+	 {
+      "name": "dic3",
+      "title": "Dictionary 3 - URL",
+      "type": "string",
+      "value": "http://www.oxfordlearnersdictionaries.com/definition/english/%s"
+    },
+    {
+      "name": "dicname4",
+      "title": "Dictionary 4 - Name",
+      "type": "string",
+      "value": "Vocabulary.com"
+    },
+	 {
+      "name": "dic4",
+      "title": "Dictionary 4 - URL",
+      "type": "string",
+      "value": "http://www.vocabulary.com/dictionary/%s"
+    },
+    {
+      "name": "use-dic",
+      "title": "Dictionary to use",
+      "type": "string",
+      "value": "1"
+    },
+    {
+      "name": "notetype",
+      "title": "Note Type",
+      "type": "string",
+      "value": ""
+    },
+    {
+      "name": "deckname",
+      "title": "Deck Name",
+      "type": "string",
+      "value": ""
+    }]
+}
