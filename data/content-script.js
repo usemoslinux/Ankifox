@@ -47,6 +47,11 @@ self.port.on("initankiwebframe", function(deck, notetype, word) {
 		for(var i = 0, j = notetypecombobox.options.length; i < j; ++i) {
 			if(notetypecombobox.options[i].innerHTML === notetype) {
 				notetypecombobox.selectedIndex = i;
+				var event = new UIEvent("change", {
+					"bubbles": true,
+					"cancelable": true
+				});
+				notetypecombobox.dispatchEvent(event); // trigger onchange event
 				break;
 			}
 		}

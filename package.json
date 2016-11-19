@@ -2,7 +2,7 @@
   "name": "ankifox",
   "title": "Ankifox",
   "id": "ankifox@ankiweb.com",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "Add new cards to Anki while you read online articles, pdf files, etc. in Firefox.",
   "main": "index.js",
   "author": "usemoslinux",
